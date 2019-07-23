@@ -1,0 +1,28 @@
+STEP 1 TO 5:
+(4C2)-(3C2)-(3C1)-(2C1)-(1C1)-(1C0) 
+STEP 6:
+(2C1)-(1C0)
+STEP 7:
+(3C1)-(2C0) 
+STEP 8 TO 11:
+(4C2)-(3C1)-(2C1)-(1C1)-(1C0)
+STEP 12:
+(2C1)-(1C0)
+STEP 13:
+(3C1)-(2C0) 
+
+(1C0) given control back to (1C1), (1C1)given control back to(2C1);
+(1C0) given control back to (2C1);
+(2C1) given control back to (3C1);
+(2C0) given control back to (3C1);
+(3C1) given control back to (3C2),(3C2) given control back to (4C2), (4C2) called(3C1);
+
+(1C0) given control back to (1C1), (1C1)given control back to(2C1);
+(1C0) given control back to (2C1);
+(2C1) given control back to (3C1);
+(2C0) given control back to (3C1);
+(3C1) given control back to (4C2);
+
+
+If included the call (4C2) at the beginning it will be 14 calls to the binomialCoefficient method. Otherwise, 13 calls.
+
